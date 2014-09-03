@@ -1,0 +1,195 @@
+.content
+{
+	background-color:  #303030;
+	width: 1247px;
+	height: 1517px;	
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 72px;
+}
+.fixed{position: absolute !important;}
+.header
+{
+	background-image: url("../images/head_grad.png");
+	background-repeat: repeat-x;
+	padding-top: 70px;
+	padding-bottom: 58px;
+	padding: 70px 68px 58px 92px;
+	width: 1247px;
+	height: 178px;
+}
+.header span:first-child {
+	color:  #ffffff;
+	font-size: 33.33px;
+	font-weight: 400;
+	transform: scaleX(1.001);
+}
+.header span:nth-child(2) {
+	color:  #ff8927;
+	font-size: 33.33px;
+	font-weight: 300;
+	transform: scaleX(1.001);
+	margin-left: 32px;
+}
+.header img{width: 172px; height: 50px; float: right;}
+
+.title {width: 1247px; height: 85px; background-image: url("../images/title_1.png"); top:249px; color:  #ffffff; font-size: 24px; font-weight: 400; transform: scaleX(1.001); padding-top: 29px; padding-left: 97px}
+.sizes{width: 1247px; height: 379px; top: 325px;}
+.sizes div{display:inline-block;}
+.sizes div:first-child  {color:  #ffffff; font-size: 20px; font-weight: 400; width: 151px; height: 15px; margin-left: 98px; margin-top: 49px;}
+.sizes div:nth-child(2) {margin-left: 440px; margin-top: 49px; color:  #ffffff; font-size: 20px; font-weight: 400; width: 87px; height: 19px;}
+.sizes div:nth-child(3) {color:  #7d7d7d; font-size: 14.67px; font-weight: 400; position: relative; top: 68px; left: -530px;}
+.sizes div:nth-child(4){font-family: Arial; color:  #7d7d7d; font-size: 18px; font-weight: 400; position: relative; top: 150px; left: -445px;}
+.sizes div:nth-child(5){font-family: Arial; color:  #7d7d7d; font-size: 18px; font-weight: 400; position: relative; top: 234px; left: -867px;}
+.sizes img {margin-top: 40px; margin-left: 96px;}
+
+.alignments{background-color: #282828; width: 1240px; height:379px; top:705px;}
+.alignments div{display:inline-block; position: relative;}
+.alignments div:first-child  {color:  #ffffff; font-size: 20px; font-weight: 400; height: 15px; margin-left: 98px; margin-top: 49px;}
+.alignments div:nth-child(2) {font-family: Arial; color:  #7d7d7d; font-size: 18px; font-weight: 400; top:59px; left: -50px;}
+.alignments div:nth-child(3) {font-family: Arial; color:  #7d7d7d; font-size: 18px; font-weight: 400; top:59px; left: -232px;}
+.alignments div:nth-child(4) {font-family: Arial; color:  #7d7d7d; font-size: 18px; font-weight: 400; top:108px; left: 48px;}
+.alignments div:nth-child(5) {font-family: Arial; color:  #7d7d7d; font-size: 18px; font-weight: 400; top:150px; left: -21px;}
+.alignments div:nth-child(6) {font-family: Arial; color:  #88bad8; font-size: 14.67px; font-weight: 400;top:199px; left: -440px;}
+.alignments div:nth-child(7) {margin-left: 35px; margin-top: 49px; color:  #ffffff; font-size: 20px; font-weight: 400; height: 19px;}
+.alignments div:nth-child(8) {color:  #ffffff; font-size: 13.33px; font-weight: 400; top:72px; left: 204px;}
+.alignments div:nth-child(9) {color:  #ffffff; font-size: 13.33px; font-weight: 400; top:152px; left: -3px;}
+.alignments img{margin-left: 98px; margin-top: 32px;}
+
+.fonts{top:1084px;}
+.fonts div{margin-left: 98px;}
+.fonts div:first-child  {display:inline-block; color:  #ffffff; font-size: 20px; font-weight: 400; width: 151px; height: 15px; margin-left: 98px; margin-top: 49px;}
+.fonts div:nth-child(2) {display:inline-block; margin-left: 440px; margin-top: 49px; color:  #ffffff; font-size: 20px; font-weight: 400; width: 87px; height: 19px;}
+.fonts div:nth-child(6) {display:inline-block; color:  #ffffff; font-size: 20px; font-weight: 400; }
+.fonts img {margin-left: 677px; margin-top:-217px;}
+
+.fonts div.white { margin-top: 32px; color:  #dfdfdf; font-size: 17.33px; font-weight: 400;}
+.fonts div.white div {margin-top :0; margin-right: 21px; background-color:  #dfdfdf; width: 22px; height: 21px;}
+.fonts div.white span {font-family: Arial; color:  #7d7d7d; font-size: 18.75px; font-weight: 400; transform: scaleX(1.001);}
+
+.fonts div.grey {margin-top: 20px;color:  #a9a9a9; font-size: 13.33px; font-weight: 400;}
+.fonts div.grey div {margin-top :0; margin-left: 114px; margin-right: 21px; background-color:  #a9a9a9; width: 22px; height: 21px;}
+.fonts div.grey span {font-family: Arial; color:  #7d7d7d; font-size: 18.75px; font-weight: 400; transform: scaleX(1.001);}
+
+.fonts div.red {margin-top: 20px;color:  #ff3232; font-size: 13.33px; font-weight: 400;}
+.fonts div.red div {margin-top :0; margin-left: 114px; margin-right: 21px; background-color:  #ff3232; width: 22px; height: 21px;}
+.fonts div.red span {font-family: Arial; color:  #7d7d7d; font-size: 18.75px; font-weight: 400; transform: scaleX(1.001);}
+
+.fonts div.green {margin-top: 20px;color:  #07aa00; font-size: 13.33px; font-weight: 400;}
+.fonts div.green div {margin-top :0; margin-left: 114px; margin-right: 21px; background-color:  #07aa00; width: 22px; height: 21px;}
+.fonts div.green span {font-family: Arial; color:  #7d7d7d; font-size: 18.75px; font-weight: 400; transform: scaleX(1.001);}
+
+.fonts div.yellow {margin-top: 20px;color:  #f39200; font-size: 13.33px; font-weight: 400;}
+.fonts div.yellow div {margin-top :0; margin-left: 114px; margin-right: 21px; background-color:  #f39200; width: 22px; height: 21px;}
+.fonts div.yellow span {font-family: Arial; color:  #7d7d7d; font-size: 18.75px; font-weight: 400; transform: scaleX(1.001);}
+
+.fonts div.black_black{position:relative; left: 827px; top: -234px;font-family: Arial; color:  #7d7d7d; font-size: 18px; width: 85px;}
+.fonts div.black_black div {font-family: Arial; color:  #7d7d7d; font-size: 18px; margin: 0; }
+.fonts div.black_black div div{background-color:  #101010; width: 22px; height: 21px; margin: 0; margin-top: 27px; margin-left:-23px; margin-right: 13px;}
+.fonts div.black_black span {display: inline-block;}
+
+.fonts div.black{position:relative; left: 827px; top: -187px;font-family: Arial; color:  #7d7d7d; font-size: 18px; width: 85px;}
+.fonts div.black div {font-family: Arial; color:  #7d7d7d; font-size: 18px; margin: 0; }
+.fonts div.black div div{background-color:  #3b3b3b; width: 22px; height: 21px; margin: 0; margin-top: 27px; margin-left:-23px; margin-right: 13px;}
+.fonts div.black span {display: inline-block;}
+
+.fonts div.black_grey{position:relative; left: 621px; top: -183px;font-family: Arial; color:  #7d7d7d; font-size: 18px; width: 85px;}
+.fonts div.black_grey div {font-family: Arial; color:  #7d7d7d; font-size: 18px; margin: 0; }
+.fonts div.black_grey div div{background-color:  #1d1d1d; width: 22px; height: 21px; margin: 0; margin-top: 27px; margin-left:-23px; margin-right: 13px;}
+.fonts div.black_grey span {display: inline-block;}
+
+.home{font-weight: bold;}
+.menu-left{width: 100%; height: 70px; position: fixed; top: 1px; left: 1px; background-color: #202020;}
+
+.download{background-color:  #2c2c2c; width: 229px; height: 70px; float: right;margin-top: -58px;cursor: pointer;}
+.download-img{width: 36px; height: 36px;margin-left: 34px; margin-top: 17px; }
+.download div {display: block; margin-left: 100px; margin-top: -63px;}
+.download p {color:  #ffffff; font-size: 17.33px; font-weight: 400; transform: scaleX(1.001); margin-bottom: 8px;}
+.download span {color:  #848484; font-size: 12px; font-weight: 400; transform: scaleX(1.001);}
+
+.search{background-color:  rgba(44, 44, 44, 0.5); width: 530px; height: 44px; margin: 0 auto; margin-top: 14px; padding-left: 15px; padding-top: 10px; padding-bottom: 17px; padding-right: 21px }
+.search label{color:  #aeaeae; font-size: 16px; font-weight: 400; transform: scale(1.001,0.995);}
+.search input {background-color:  rgba(44, 44, 44, 0.5); border: none; width: 80%; height: 26px; color: #848484; padding-left: 15px;}
+.search div {float: right; width: 22px; border:none; height: 21px; background-image: url("../images/search.png")}
+
+.size{top:336px; padding: 33px 76px 68px 83px; }
+.mini-trends .size div {display: inline-block; text-align: center;}
+.mini-trends .size div:first-child{ margin-right: 172px; margin-bottom:54px; font-family: Arial; color:  #ffffff; font-size: 20px; font-weight: 400; transform: scaleX(1.001);}
+.mini-trends .basic-color{background-color: rgba(56, 56, 56, 0.6); margin-right: 15px; margin-bottom:54px ;width: 423px; height: 45px; line-height: 45px; font-family: Arial; color:  #d77320; font-size: 17.33px; font-weight: 400; transform: scaleX(1.001);}
+.mini-trends .addition-color{background-color: rgba(56, 56, 56, 0.6); width: 423px; height: 45px; line-height: 45px; font-family: Arial; color:  #66d1ff; font-size: 17.33px; font-weight: 400; transform: scaleX(1.001);}
+.mini-trends .size .bars,.mini-trends .size .cumulative,.mini-trends .size .line {position: relative; display: block; text-align: left;}
+
+.mini-trends .size .bars {width: 175px; height: 29px;}
+.mini-trends .size .bars p{font-family: Arial; color:  #737373; font-size: 13.33px; font-weight: 400; transform: scaleX(1.001);}
+.mini-trends .size .charts {width: 1089px; height: 244px; background-image: url("../images/Mini-trends/mini_trends_1.png");}
+
+.mini-trends .size .cumulative {width: 175px; height: 29px; top: -169px;}
+.mini-trends .size .cumulative p{font-family: Arial; color:  #737373; font-size: 13.33px; font-weight: 400; transform: scaleX(1.001);}
+
+.mini-trends .size .line {width: 175px; height: 29px; top: -80px;}
+.mini-trends .size .line p{font-family: Arial; color:  #737373; font-size: 13.33px; font-weight: 400; transform: scaleX(1.001);}
+
+.mini-trends .size2{top:763px; padding: 33px 76px 18px 83px; background-color:  rgba(45, 45, 45, 0.62);}
+.mini-trends .size2 div {position: relative; display: block; text-align: left;}
+.mini-trends .size2 div:first-child{ margin-right: 172px; margin-bottom:54px; font-family: Arial; color:  #ffffff; font-size: 20px; font-weight: 400; transform: scaleX(1.001);}
+.mini-trends .size2 .image {width: 1089px; height: 358px; background-image: url("../images/Mini-trends/mini_trends_2.png");}
+.mini-trends .size2 p {font-family: Arial; color:  #737373; font-size: 13.33px; font-weight: 400; }
+
+.mini-trends .size2 .siz1{width: 294px; height: 29px; top:-345px;}
+.mini-trends .size2 .siz2{height: 29px;top:-245px;}
+.mini-trends .size2 .siz3{width: 206px; height: 13px;top:-145px;}
+
+.siz1{font-family: Arial; color:  #6d8f52; font-size: 16px; font-weight: 400; transform: scaleX(1.001);}
+.siz2{font-family: Arial; color:  #597e95; font-size: 16px; font-weight: 400;width: 306px; }
+.siz3{font-family: Arial; color:  #856590; font-size: 16px; font-weight: 400; width: 206px;}
+
+.mini-trends .title:nth-child(2) {top:1320px; margin-bottom: 46px;}
+
+.mini-trends .types{top:1400px; padding: 46px 71px 68px 83px; width: 1059px;}
+.mini-trends .types div {position: relative; display: block; text-align: left;}
+.mini-trends .types span {font-family: Arial; color:  #7d7d7d; font-size: 17.33px; font-weight: 400;}
+.mini-trends .types .image {width: 126px; height: 258px; top:50px; background-image: url("../images/Mini-trends/mini_trends_3.png");}
+.mini-trends .types .bar {display: inline-block; left: 285px; top: -330px; width: 253px; height: 348px;  background-image: url("../images/Mini-trends/mini_trends_4.png");}
+.mini-trends .types div:first-child{margin-bottom: 26px; font-family: Arial; color:  #ffffff; font-size: 20px; font-weight: 400; transform: scaleX(1.001);}
+
+.mini-trends .types .siz1 {top: -240px;}
+.mini-trends .types .siz2 {top: -150px;}
+.mini-trends .types .siz3 {top: -60px;}
+
+.mini-trends .types div:nth-child(7){top:-417px; left:384px;}
+.mini-trends .types div:nth-child(8){top:-407px; left:384px;}
+.mini-trends .types div:nth-child(9){top:-397px; left:384px;}
+
+.mini-trends .types .colors {top:-777px;font-family: Arial; float:right; color:  #ffffff; font-size: 20px; font-weight: 400; transform: scaleX(1.001);}
+.mini-trends .types .colors .basic {font-family: Arial; color:  #d77320; font-size: 16px; font-weight: 400; transform: scaleX(1.001); width: 150px; } 
+.mini-trends .types .colors .basic span {font-family: Arial; color:  #7d7d7d; font-size: 18.75px; font-weight: 400; transform: scaleX(1.001);}
+.mini-trends .types .colors .basic div {background-color:  #d77320; width: 22px; height: 21px; margin:0; display: inline-block; margin-top: 18px; margin-right: 21px;}
+.mini-trends .types .colors .additional {font-family: Arial; color:  #009fe3; font-size: 16px; font-weight: 400; transform: scaleX(1.001); margin-top: 18px;}
+.mini-trends .types .colors .additional div {background-color:  #009fe3; width: 22px; height: 21px; display: inline-block;margin-top: 18px;  margin-right: 21px;}
+.mini-trends .types .colors .additional span {font-family: Arial; color:  #7d7d7d; font-size: 18.75px; font-weight: 400; transform: scaleX(1.001);}
+
+.mini-trends .cumul{top:1900px; padding: 46px 71px 68px 83px; width: 1247px; background-color:  rgba(45, 45, 45, 0.62);height: 451px;}
+.mini-trends .cumul div {position: relative; display: block; text-align: left;}
+.mini-trends .cumul span {font-family: Arial; color:  #7d7d7d; font-size: 17.33px; font-weight: 400;}
+.mini-trends .cumul .image {width: 126px; height: 277px; top:50px; background-image: url("../images/Mini-trends/mini_trends_5.png");}
+.mini-trends .cumul .bar {display: inline-block; left: 285px; top: -330px; width: 410px; height: 253px;  background-image: url("../images/Mini-trends/mini_trends_6.png");}
+.mini-trends .cumul div:first-child{margin-bottom: 26px; font-family: Arial; color:  #ffffff; font-size: 20px; font-weight: 400; transform: scaleX(1.001);}
+
+.mini-trends .cumul .siz1 {top: -260px;}
+.mini-trends .cumul .siz2 {top: -170px;}
+.mini-trends .cumul .siz3 {top: -70px;}
+
+.mini-trends .cumul div:nth-child(7){top:-545px; left:580px;}
+.mini-trends .cumul div:nth-child(8){top:-540px; left:580px;}
+.mini-trends .cumul div:nth-child(9){top:-535px; left:580px;}
+
+.mini-trends .cumul .colors {top:-700px;font-family: Arial; float:right; color:  #ffffff; font-size: 20px; font-weight: 400; transform: scaleX(1.001);margin-right: 125px;}
+.mini-trends .cumul .colors .basic {font-family: Arial; color:  #d77320; font-size: 16px; font-weight: 400; transform: scaleX(1.001); width: 217px; } 
+.mini-trends .cumul .colors .basic span {font-family: Arial; color:  #7d7d7d; font-size: 18.75px; font-weight: 400; transform: scaleX(1.001);}
+.mini-trends .cumul .colors .basic div {background-color:  #d77320; width: 22px; height: 21px; margin:0; display: inline-block; margin-top: 18px; margin-right: 21px;}
+.mini-trends .cumul .colors .additional {font-family: Arial; color:  #009fe3; font-size: 16px; font-weight: 400; transform: scaleX(1.001); margin-top: 18px; width: 210px;}
+.mini-trends .cumul .colors .additional div {background-color:  #009fe3; width: 22px; height: 21px; display: inline-block;margin-top: 18px;  margin-right: 21px;}
+.mini-trends .cumul .colors .additional span {font-family: Arial; color:  #7d7d7d; font-size: 18.75px; font-weight: 400; transform: scaleX(1.001);}
+
+.mini-trends .cumul .colors div.rect{display: inline-block; width: 20px; height: 20px;margin-right: 5px; background-color: transparent; background-image: url("../images/Mini-trends/Rectangle.png");}
+.mini-trends .cumul .colors div.white{background-color:  #cdcdcd;}
