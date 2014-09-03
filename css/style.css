@@ -2,7 +2,6 @@
 {
 	background-color:  #303030;
 	width: 1247px;
-	height: 1517px;	
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 72px;
@@ -193,3 +192,12 @@
 
 .mini-trends .cumul .colors div.rect{display: inline-block; width: 20px; height: 20px;margin-right: 5px; background-color: transparent; background-image: url("../images/Mini-trends/Rectangle.png");}
 .mini-trends .cumul .colors div.white{background-color:  #cdcdcd;}
+
+.background div {position:relative;}
+.background div.image {background-image: url("../images/Background/back_1.png"); height: 537px; width: 604px; left: 323px; top:347px;}
+.background .fill-color {position:relative; font-family: Arial; color:  #f3f3f3; font-size: 20px; font-weight: 400;left: 323px; top:205px; }
+.background .fill-color div {background-color:  #272727; width: 22px; height: 21px; display:inline-block; margin-top: 15px;}
+.background .fill-color span {font-family: Arial; color:  #7d7d7d; font-size: 18.75px; font-weight: 400; transform: scaleX(1.001);}
+
+.background .texture {font-family: Arial; color:  #f3f3f3; font-size: 20px; font-weight: 400;width: 65px; height: 16px; float: right; right: 335px; top: 138px;}
+.background .inch {font-family: Arial; color: #7d7d7d; font-size: 18.67px; font-weight: 400; width: 80px; height: 15px; float: right; right: 169px; top: 176px;}
