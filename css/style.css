@@ -11,6 +11,8 @@
 .value {font-family: Arial; color:  #7d7d7d; font-size: 18px; font-weight: 400; position: relative; width: 250px;}
 .mini-value {font-family: Arial; color:  #7d7d7d; font-size: 14.67px;  font-weight: 400; width: 150px;}
 .triangle {width: 0; height: 0; margin-right: 19px;margin-left: 41px; border-style: solid;  border-width: 6px 0 6px 10px; background-color: transparent; border-color: transparent transparent transparent #7d7d7d; line-height: 0px;  _border-color: #000000 #000000 #000000 #7d7d7d; _filter: progid:DXImageTransform.Microsoft.Chroma(color='#000000');}
+.check {background-image: url("../images/Performance/check.png");background-color: transparent; width: 20px; height: 20px; margin-right: 10px;}
+.grad {width: 44px; height: 21px;}
 .fixed{position: absolute !important;}
 .header
 {
@@ -60,47 +62,47 @@
 .alignments div:nth-child(9) {color:  #ffffff; font-size: 13.33px; font-weight: 400; top:152px; left: -3px;}
 .alignments img{margin-left: 98px; margin-top: 32px;}
 
-.fonts{top:1084px;}
-.fonts div{margin-left: 98px;}
-.fonts div:first-child  {display:inline-block; color:  #ffffff; font-size: 20px; font-weight: 400; width: 151px; height: 15px; margin-left: 98px; margin-top: 49px;}
-.fonts div:nth-child(2) {display:inline-block; margin-left: 440px; margin-top: 49px; color:  #ffffff; font-size: 20px; font-weight: 400; width: 87px; height: 19px;}
-.fonts div:nth-child(6) {display:inline-block; color:  #ffffff; font-size: 20px; font-weight: 400; }
-.fonts img {margin-left: 677px; margin-top:-217px;}
+.mini-widgets .fonts{top:1084px;}
+.mini-widgets .fonts div{margin-left: 98px;}
+.mini-widgets .fonts div:first-child  {display:inline-block; color:  #ffffff; font-size: 20px; font-weight: 400; width: 151px; height: 15px; margin-left: 98px; margin-top: 49px;}
+.mini-widgets .fonts div:nth-child(2) {display:inline-block; margin-left: 440px; margin-top: 49px; color:  #ffffff; font-size: 20px; font-weight: 400; width: 87px; height: 19px;}
+.mini-widgets .fonts div:nth-child(6) {display:inline-block; color:  #ffffff; font-size: 20px; font-weight: 400; }
+.mini-widgets .fonts img {margin-left: 677px; margin-top:-217px;}
 
-.fonts div.white { margin-top: 32px; color:  #dfdfdf; font-size: 17.33px; font-weight: 400;}
-.fonts div.white div {margin-top :0; margin-right: 21px; background-color:  #dfdfdf; width: 22px; height: 21px;}
-.fonts div.white span {font-family: Arial; color:  #7d7d7d; font-size: 18.75px; font-weight: 400; transform: scaleX(1.001);}
+.mini-widgets .fonts div.white { margin-top: 32px; color:  #dfdfdf; font-size: 17.33px; font-weight: 400;}
+.mini-widgets .fonts div.white div {margin-top :0; margin-right: 21px; background-color:  #dfdfdf; width: 22px; height: 21px;}
+.mini-widgets .fonts div.white span {font-family: Arial; color:  #7d7d7d; font-size: 18.75px; font-weight: 400; transform: scaleX(1.001);}
 
-.fonts div.grey {margin-top: 20px;color:  #a9a9a9; font-size: 13.33px; font-weight: 400;}
-.fonts div.grey div {margin-top :0; margin-left: 114px; margin-right: 21px; background-color:  #a9a9a9; width: 22px; height: 21px;}
-.fonts div.grey span {font-family: Arial; color:  #7d7d7d; font-size: 18.75px; font-weight: 400; transform: scaleX(1.001);}
+.mini-widgets .fonts div.grey {margin-top: 20px;color:  #a9a9a9; font-size: 13.33px; font-weight: 400;}
+.mini-widgets .fonts div.grey div {margin-top :0; margin-left: 114px; margin-right: 21px; background-color:  #a9a9a9; width: 22px; height: 21px;}
+.mini-widgets .fonts div.grey span {font-family: Arial; color:  #7d7d7d; font-size: 18.75px; font-weight: 400; transform: scaleX(1.001);}
 
-.fonts div.red {margin-top: 20px;color:  #ff3232; font-size: 13.33px; font-weight: 400;}
-.fonts div.red div {margin-top :0; margin-left: 114px; margin-right: 21px; background-color:  #ff3232; width: 22px; height: 21px;}
-.fonts div.red span {font-family: Arial; color:  #7d7d7d; font-size: 18.75px; font-weight: 400; transform: scaleX(1.001);}
+.mini-widgets .fonts div.red {margin-top: 20px;color:  #ff3232; font-size: 13.33px; font-weight: 400;}
+.mini-widgets .fonts div.red div {margin-top :0; margin-left: 114px; margin-right: 21px; background-color:  #ff3232; width: 22px; height: 21px;}
+.mini-widgets .fonts div.red span {font-family: Arial; color:  #7d7d7d; font-size: 18.75px; font-weight: 400; transform: scaleX(1.001);}
 
-.fonts div.green {margin-top: 20px;color:  #07aa00; font-size: 13.33px; font-weight: 400;}
-.fonts div.green div {margin-top :0; margin-left: 114px; margin-right: 21px; background-color:  #07aa00; width: 22px; height: 21px;}
-.fonts div.green span {font-family: Arial; color:  #7d7d7d; font-size: 18.75px; font-weight: 400; transform: scaleX(1.001);}
+.mini-widgets .fonts div.green {margin-top: 20px;color:  #07aa00; font-size: 13.33px; font-weight: 400;}
+.mini-widgets .fonts div.green div {margin-top :0; margin-left: 114px; margin-right: 21px; background-color:  #07aa00; width: 22px; height: 21px;}
+.mini-widgets .fonts div.green span {font-family: Arial; color:  #7d7d7d; font-size: 18.75px; font-weight: 400; transform: scaleX(1.001);}
 
-.fonts div.yellow {margin-top: 20px;color:  #f39200; font-size: 13.33px; font-weight: 400;}
-.fonts div.yellow div {margin-top :0; margin-left: 114px; margin-right: 21px; background-color:  #f39200; width: 22px; height: 21px;}
-.fonts div.yellow span {font-family: Arial; color:  #7d7d7d; font-size: 18.75px; font-weight: 400; transform: scaleX(1.001);}
+.mini-widgets .fonts div.yellow {margin-top: 20px;color:  #f39200; font-size: 13.33px; font-weight: 400;}
+.mini-widgets .fonts div.yellow div {margin-top :0; margin-left: 114px; margin-right: 21px; background-color:  #f39200; width: 22px; height: 21px;}
+.mini-widgets .fonts div.yellow span {font-family: Arial; color:  #7d7d7d; font-size: 18.75px; font-weight: 400; transform: scaleX(1.001);}
 
-.fonts div.black_black{position:relative; left: 827px; top: -234px;font-family: Arial; color:  #7d7d7d; font-size: 18px; width: 85px;}
-.fonts div.black_black div {font-family: Arial; color:  #7d7d7d; font-size: 18px; margin: 0; }
-.fonts div.black_black div div{background-color:  #101010; width: 22px; height: 21px; margin: 0; margin-top: 27px; margin-left:-23px; margin-right: 13px;}
-.fonts div.black_black span {display: inline-block;}
+.mini-widgets .fonts div.black_black{position:relative; left: 827px; top: -234px;font-family: Arial; color:  #7d7d7d; font-size: 18px; width: 85px;}
+.mini-widgets .fonts div.black_black div {font-family: Arial; color:  #7d7d7d; font-size: 18px; margin: 0; }
+.mini-widgets .fonts div.black_black div div{background-color:  #101010; width: 22px; height: 21px; margin: 0; margin-top: 27px; margin-left:-23px; margin-right: 13px;}
+.mini-widgets .fonts div.black_black span {display: inline-block;}
 
-.fonts div.black{position:relative; left: 827px; top: -187px;font-family: Arial; color:  #7d7d7d; font-size: 18px; width: 85px;}
-.fonts div.black div {font-family: Arial; color:  #7d7d7d; font-size: 18px; margin: 0; }
-.fonts div.black div div{background-color:  #3b3b3b; width: 22px; height: 21px; margin: 0; margin-top: 27px; margin-left:-23px; margin-right: 13px;}
-.fonts div.black span {display: inline-block;}
+.mini-widgets .fonts div.black{position:relative; left: 827px; top: -187px;font-family: Arial; color:  #7d7d7d; font-size: 18px; width: 85px;}
+.mini-widgets .fonts div.black div {font-family: Arial; color:  #7d7d7d; font-size: 18px; margin: 0; }
+.mini-widgets .fonts div.black div div{background-color:  #3b3b3b; width: 22px; height: 21px; margin: 0; margin-top: 27px; margin-left:-23px; margin-right: 13px;}
+.mini-widgets .fonts div.black span {display: inline-block;}
 
-.fonts div.black_grey{position:relative; left: 621px; top: -183px;font-family: Arial; color:  #7d7d7d; font-size: 18px; width: 85px;}
-.fonts div.black_grey div {font-family: Arial; color:  #7d7d7d; font-size: 18px; margin: 0; }
-.fonts div.black_grey div div{background-color:  #1d1d1d; width: 22px; height: 21px; margin: 0; margin-top: 27px; margin-left:-23px; margin-right: 13px;}
-.fonts div.black_grey span {display: inline-block;}
+.mini-widgets .fonts div.black_grey{position:relative; left: 621px; top: -183px;font-family: Arial; color:  #7d7d7d; font-size: 18px; width: 85px;}
+.mini-widgets .fonts div.black_grey div {font-family: Arial; color:  #7d7d7d; font-size: 18px; margin: 0; }
+.mini-widgets .fonts div.black_grey div div{background-color:  #1d1d1d; width: 22px; height: 21px; margin: 0; margin-top: 27px; margin-left:-23px; margin-right: 13px;}
+.mini-widgets .fonts div.black_grey span {display: inline-block;}
 
 .home{font-weight: bold;}
 .menu-left{width: 100%; height: 70px; position: fixed; top: 1px; left: 1px; background-color: #202020;}
@@ -633,3 +635,340 @@ left: 164px;}
 .widgets .title-grids .title_grids div:nth-child(6){top: -183px; left: 250px;}
 .widgets .title-grids .title_grids div:nth-child(7){top: -178px; left: 43px;}
 .widgets .title-grids .title_grids div:nth-child(8){top: -178px; left: 43px;}
+
+.widgets .title-grids .fonts {position: relative; top: -400px;}
+.widgets .fonts div:nth-child(2) div {background-color:  #b3b3b3; width: 22px; height: 21px;}
+.widgets .fonts div:nth-child(3) div {background-color:  #636363;; width: 22px; height: 21px; margin-left: 250px;}
+.widgets .fonts div:nth-child(2) span.fourteen_pt {font-family: Arial; color:  #b3b3b3; font-size: 18.67px; font-weight: 400;}
+.widgets .fonts div:nth-child(3) span.eleven_pt {font-family: Arial; color: #636363; font-size: 14.67px;  font-weight: 400;} 
+.widgets .fonts div span:nth-child(4){font-family: Arial; color:  #636363; font-size: 14.67px; font-style: italic; margin-left: 42px}
+.widgets .fonts div:nth-child(3) span:nth-child(4){margin-left: 72px}
+
+.donut-chart .chart_examles {top: 339px; padding: 46px 71px 68px 83px;}
+.donut-chart .chart_examles .image {background-image: url("../images/donut_chart/donut_charts_1.png"); width: 1019px; height: 174px; margin-top: 42px;}
+.donut-chart .chart_sizes {top: 689px; padding: 46px 71px 68px 83px; background-color:  rgba(45, 45, 45, 0.62); width: 1240px; height: 471px;}
+.donut-chart .chart_sizes div.value {position: relative;}
+.donut-chart .chart_sizes div.value:nth-child(3){top: -247px; left: 23px;}
+.donut-chart .chart_sizes div.value:nth-child(4){top: -268px; left: 213px;}
+.donut-chart .chart_sizes div.value:nth-child(5){top: -289px; left: 374px;}
+.donut-chart .chart_sizes div.value:nth-child(6){top: -88px; left: 50px;}
+.donut-chart .chart_sizes div.value:nth-child(7){top: -109px; left: 225px;}
+.donut-chart .chart_sizes div.value:nth-child(8){top: -130px; left: 380px;}
+
+.donut-chart .donut_sizes {margin-right: 93px;}
+.donut-chart .donut_sizes, .donut-chart .donut_fonts {display: inline-block;}
+.donut-chart .chart_sizes .image{background-image: url("../images/donut_chart/donut_charts_2.png"); width: 449px; height: 254px; margin-top: 42px;}
+
+.donut-chart .donut_fonts table.fonts{margin-top: 22px; text-align: left;}
+.donut-chart .donut_fonts table.fonts .size1 {font-family: Arial; color:  #6d8f52; font-size: 16px; font-weight: 400;}
+.donut-chart .donut_fonts table.fonts .size2 {font-family: Arial; color:  #597e95; font-size: 16px; font-weight: 400;}
+.donut-chart .donut_fonts table.fonts .size3 {font-family: Arial; color:  #856590; font-size: 16px; font-weight: 400;}
+.donut-chart .donut_fonts table.fonts td{height: 42px;}
+.donut-chart .donut_fonts table.fonts td.subheader {padding-right: 25px;}
+.donut-chart .donut_fonts table.fonts tr:nth-child(2) td:nth-child(2){font-family: Arial; color:  #ffffff; font-size: 21.33px; font-weight: 700; padding-right: 78px;}
+.donut-chart .donut_fonts table.fonts tr:nth-child(3) td:nth-child(2) {font-family: Arial; color:  #b3b3b3; font-size: 14.67px; font-weight: 400; transform: scaleX(1.001);}
+.donut-chart .donut_fonts table.fonts tr:nth-child(2) td:nth-child(3) div:first-child {background-color:  #ffffff; width: 22px; height: 21px; margin-right: 9px;} 
+.donut-chart .donut_fonts table.fonts tr:nth-child(3) td:nth-child(3) div:first-child {background-color:  #b3b3b3; width: 22px; height: 21px; margin-right: 9px;}
+.donut-chart .donut_fonts table.fonts div {display: inline-block;}
+
+.donut-chart .standart_colors {top: 489px; padding: 46px 71px 68px 83px;}
+.donut-chart .standart_colors table.colors {margin-top: 30px; text-align: left; width:1100px;}
+.donut-chart .standart_colors table.colors tr {height: 40px;}
+.donut-chart .standart_colors table.colors td {width: 500px;}
+.donut-chart .standart_colors table.colors td div {display: inline-block;}
+.donut-chart .standart_colors table.colors td div:first-child {width: 22px; height: 21px; margin-right: 23px;}
+.donut-chart .standart_colors div.image{background-image: url("../images/donut_chart/donut_charts_3.png"); width: 825px; height: 93px; margin-top: 42px;}
+
+.donut-chart .standart_colors table.colors tr:first-child td:first-child div:first-child {background-color:  #91e51b;}
+.donut-chart .standart_colors table.colors tr:first-child td:nth-child(2) div:first-child {background-color:  #8ff3ff;}
+.donut-chart .standart_colors table.colors tr:first-child td:nth-child(3) div:first-child {background-color:  #00576d;}
+
+.donut-chart .standart_colors table.colors tr:nth-child(2) td:first-child div:first-child {background-color:  #ffed00;}
+.donut-chart .standart_colors table.colors tr:nth-child(2) td:nth-child(2) div:first-child {background-color:  #ffb750;}
+.donut-chart .standart_colors table.colors tr:nth-child(2) td:nth-child(3) div:first-child {background-color:  #35ae00;}
+
+.donut-chart .standart_colors table.colors tr:nth-child(3) td:first-child div:first-child {background-color:  #fe841f;}
+.donut-chart .standart_colors table.colors tr:nth-child(3) td:nth-child(2) div:first-child {background-color:  #d256ab;}
+.donut-chart .standart_colors table.colors tr:nth-child(3) td:nth-child(3) div:first-child {background-color:  #fff25d;}
+
+.donut-chart .standart_colors table.colors tr:nth-child(4) td:first-child div:first-child {background-color:  #ec2d44;}
+.donut-chart .standart_colors table.colors tr:nth-child(4) td:nth-child(2) div:first-child {background-color:  #f29fc5;}
+.donut-chart .standart_colors table.colors tr:nth-child(4) td:nth-child(3) div:first-child {background-color:  #aa5736;}
+
+.donut-chart .standart_colors table.colors tr:nth-child(5) td:first-child div:first-child {background-color:  #8169de;}
+.donut-chart .standart_colors table.colors tr:nth-child(5) td:nth-child(2) div:first-child {background-color:  #a00057;}
+.donut-chart .standart_colors table.colors tr:nth-child(5) td:nth-child(3) div:first-child {background-color:  #ff7f66;}
+
+.donut-chart .standart_colors table.colors tr:nth-child(6) td:first-child div:first-child {background-color:  #0099c5;}
+.donut-chart .standart_colors table.colors tr:nth-child(6) td:nth-child(2) div:first-child {background-color:  #006b2d;}
+.donut-chart .standart_colors table.colors tr:nth-child(6) td:nth-child(3) div:first-child {background-color:  #7c4a5d;}
+
+.donut-chart .standart_colors table.colors tr:nth-child(7) td:first-child div:first-child {background-color:  #0069b4;}
+.donut-chart .standart_colors table.colors tr:nth-child(7) td:nth-child(2) div:first-child {background-color:  #b0ff95;}
+.donut-chart .standart_colors table.colors tr:nth-child(7) td:nth-child(3) div:first-child {background-color:  #98baff;}
+
+.donut-chart .standart_colors table.colors tr:nth-child(8) td:first-child div:first-child {background-color:  #4c5361;}
+.donut-chart .standart_colors table.colors tr:nth-child(8) td:nth-child(2) div:first-child {background-color:  #00948d;}
+.donut-chart .standart_colors table.colors tr:nth-child(8) td:nth-child(3) div:first-child {background-color:  #ffffff;}
+
+
+.donut-chart .double_charts {top: 1089px; padding: 46px 71px 68px 83px; background-color:  rgba(45, 45, 45, 0.62); width: 1240px; height: 349px;}
+.donut-chart .double_charts .image {background-image: url("../images/donut_chart/donut_charts_4.png"); width: 313px; height: 148px; margin-top: 42px;}
+
+
+.fonts_page .standart_fonts {top: 339px; padding: 46px 71px 68px 83px;}
+.fonts_page .standart_fonts .basic {margin-bottom: 50px;}
+.fonts_page .standart_fonts table {width: 500px; display: inline-block; position: relative; top: -40px;} 
+.fonts_page .standart_fonts table td {width: 250px; height: 40px;}
+.fonts_page .standart_fonts table td div{display: inline-block; width: auto;}
+
+.fonts_page .standart_fonts table td div:first-child {width: 22px; height: 21px; margin-right: 20px; background-color:  #dfdfdf;}
+.fonts_page .standart_fonts table tr:first-child td {font-family: Arial; color:  #dfdfdf; font-size: 16px; font-weight: 400;}
+.fonts_page .standart_fonts table tr:nth-child(2) td {font-family: Arial; color:  #a9a9a9; font-size: 16px; font-weight: 400;}
+.fonts_page .standart_fonts table tr:nth-child(2) td div:first-child{background-color:  #a9a9a9;}
+
+.fonts_page .standart_fonts .image {display: inline-block; background-image: url("../images/Fonts/fonts_1.png"); width: 480px; height: 127px; top: 15px; position: relative;}
+
+.fonts_page .treshold {margin-bottom: 60px;}
+.fonts_page .treshold table{top: 0px;}
+.fonts_page .treshold table td div:first-child {width: 22px; height: 21px; margin-right: 20px;}
+.fonts_page .treshold table tr:first-child td div:first-child{background-color:  #ff3232;}
+.fonts_page .treshold table tr:nth-child(2) td div:first-child{background-color:  #07aa00;}
+.fonts_page .treshold table tr:nth-child(3) td div:first-child{background-color:  #f39200;}
+.fonts_page .treshold table tr:nth-child(4) td div:first-child{background-color:  #009fe3;}
+
+.fonts_page .treshold table tr:first-child td:first-child{color:  #ff3232;}
+.fonts_page .treshold table tr:nth-child(2) td:first-child{color:  #07aa00;}
+.fonts_page .treshold table tr:nth-child(3) td:first-child{color:  #f39200;}
+.fonts_page .treshold table tr:nth-child(4) td:first-child{color:  #009fe3;}
+.fonts_page .treshold .image {background-image: url("../images/Fonts/fonts_2.png"); width: 450px; height: 128px; top: -32px;}
+
+
+.fonts_page .chart_axes {margin-bottom: 60px;}
+.fonts_page .chart_axes table {top: -100px;}
+.fonts_page .chart_axes table tr:first-child td{font-family: Arial; color:  #dfdfdf; font-size: 10.67px; font-weight: 400;}
+.fonts_page .chart_axes .image {background-image: url("../images/Fonts/fonts_3.png"); width: 493px; height: 157px;}
+
+
+.fonts_page .widget_titles {margin-bottom: 60px;}
+.fonts_page .widget_titles table {top: -40px;}
+.fonts_page .widget_titles table tr:first-child td{font-family: Arial; color:  #b3b3b3; font-size: 18.67px; font-weight: 400;}
+.fonts_page .widget_titles table tr:first-child td div:first-child{background-color:  #b3b3b3;}
+.fonts_page .widget_titles .image {background-image: url("../images/Fonts/fonts_4.png"); width: 525px; height: 103px;}
+
+.fonts_page .widget_labels {margin-bottom: 60px;}
+.fonts_page .widget_labels table {top: -40px;}
+.fonts_page .widget_labels table tr:first-child td{font-family: Arial; color:  #b3b3b3; font-size: 14.67px; font-weight: 400;}
+.fonts_page .widget_labels table tr:first-child td div:first-child{background-color:  #b3b3b3;}
+.fonts_page .widget_labels .image {background-image: url("../images/Fonts/fonts_5.png"); width: 525px; height: 103px;}
+
+.fonts_page .links .headers {margin-bottom: 30px;}
+.fonts_page .links .image {background-image: url("../images/Fonts/fonts_6.png"); width: 480px; height: 127px; display: inline-block; position: relative; left: 500px; top: -25px;}
+
+
+.line_charts .types_styles {top: 339px; padding: 46px 71px 68px 83px;}
+.line_charts .types_styles .image {background-image: url("../images/line_charts/line_charts_1.png"); width: 825px; height: 252px;}
+.line_charts .types_styles div {position: relative;}
+.line_charts .types_styles div.value{}
+.line_charts .types_styles div:nth-child(3){top:-29px; margin-left:578px;}
+.line_charts .types_styles div:nth-child(4){margin-left:747px; top:-224px;}
+.line_charts .types_styles div:nth-child(5){margin-left:747px; top:-198px;}
+
+.line_charts .types_styles .lines {display: inline-block;position: relative; left:900px; top:-350px;}
+.line_charts .types_styles .lines table tr {height: 40px;}
+.line_charts .types_styles .lines table td div {display: inline-block;}
+.line_charts .types_styles .lines table td div:first-child {width: 22px; height: 21px; margin-right: 20px;}
+.line_charts .types_styles .lines table tr:nth-child(1) td div:first-child {background-color: #7ec11f}
+.line_charts .types_styles .lines table tr:nth-child(2) td div:first-child {background-color: #c13153}
+.line_charts .types_styles .lines table tr:nth-child(3) td div:first-child {background-color: #6a59ab}
+
+.line_charts .types_type1 {top: 739px; padding: 46px 71px 68px 83px;background-color:  rgba(45, 45, 45, 0.62); width: 1240px; height: 409px;}
+.line_charts .types_type1 .image {background-image: url("../images/line_charts/line_charts_2.png"); width: 813px; height: 252px;}
+.line_charts .types_type1 div {position: relative;}
+.line_charts .types_type1 div.value{display: inline-block;}
+.line_charts .types_type1 div:nth-child(4){top:-29px; margin-left:561px;}
+.line_charts .types_type1 div:nth-child(5){margin-left:734px; top:-224px;}
+.line_charts .types_type1 div:nth-child(6){margin-left:734px; top:-198px;}
+
+.line_charts .types_type1 .lines {display: inline-block; position: relative; left:900px; top:-350px;}
+.line_charts .types_type1 .lines table tr {height: 40px;}
+.line_charts .types_type1 .lines table td div {display: inline-block;}
+.line_charts .types_type1 .lines table td div:first-child {width: 22px; height: 21px; margin-right: 20px;}
+.line_charts .types_type1 .lines table tr:nth-child(1) td div:first-child {background-color: #dfdfdf}
+.line_charts .types_type1 .lines table tr:nth-child(2) td div:first-child {background-color: rgba(223, 223, 223, 0.2);}
+.line_charts .types_type1 .lines table tr:nth-child(3) td div:first-child {background-image: url("../images/Performance/check.png");width: 20px; height: 20px;}
+
+.types_type2 {top: 1169px; padding: 46px 71px 68px 83px;}
+.line_charts .types_type2 .image {background-image: url("../images/line_charts/line_charts_3.png"); width: 804px; height: 252px;}
+.line_charts .types_type2 div {position: relative;}
+.line_charts .types_type2 div.value{display: inline-block;}
+.line_charts .types_type2 div:nth-child(4){top:-29px; margin-left:552px;}
+.line_charts .types_type2 div:nth-child(5){margin-left:725px; top:-224px;}
+.line_charts .types_type2 div:nth-child(6){margin-left:725px; top:-198px;}
+
+.line_charts .types_type2 .lines {display: inline-block;position: relative; left:900px; top:-350px;}
+.line_charts .types_type2 .lines table tr {height: 40px;}
+.line_charts .types_type2 .lines table td div {display: inline-block;}
+.line_charts .types_type2 .lines table td div:first-child {width: 22px; height: 21px; margin-right: 20px;}
+.line_charts .types_type2 .lines table tr:nth-child(1) td div:first-child {background-color: #3a82c9}
+.line_charts .types_type2 .lines table tr:nth-child(2) td div:first-child {background-color: rgba(58, 130, 201, 0.2);}
+.line_charts .types_type2 .lines table tr:nth-child(3) td div:first-child {background-image: url("../images/Performance/check.png");width: 20px; height: 20px;}
+
+.line_charts .title-fonts {top: 1600px;}
+.line_charts .title_fonts {top: 1700px; padding: 46px 71px 68px 83px;}
+.line_charts .title_fonts table {margin-bottom: 61px;}
+.line_charts .title_fonts table td:first-child {width: 110px; text-align: left;font-family: Arial; color:  #dfdfdf; font-size: 10.67px; font-weight: 400;}
+.line_charts .title_fonts table td div {display: inline-block;}
+.line_charts .title_fonts table td div:first-child {width: 22px; height: 21px; margin-right: 20px; background-color: #dfdfdf}
+.line_charts .title_fonts .image {background-image: url("../images/line_charts/line_charts_4.png"); width: 890px; height: 162px;}
+
+
+.bar_charts .single_color {top: 339px; padding: 46px 71px 68px 83px;}
+.bar_charts .single_color .image {background-image: url("../images/bar_charts/bars_1.png"); width: 1064px; height: 207px;position: relative; top:-50px;}
+.bar_charts .single_color div:nth-child(4) {position: relative; top:-40px;}
+.bar_charts .single_color div:nth-child(5) {position: relative; top: -63px; left: 133px;}
+.bar_charts .single_color table tr {height: 30px;}
+.bar_charts .single_color table div.grad {margin-right: 20px;}
+.bar_charts .single_color table div.value {width:auto;}
+.bar_charts .single_color table div.triangle {margin-left: 20px;}
+.bar_charts .single_color table div.check {margin-left: 20px;} 
+.bar_charts .single_color table tr:nth-child(1) td:first-child div.grad {background-image: url("../images/bar_charts/grad_yellow.png")}
+.bar_charts .single_color table tr:nth-child(2) td:first-child div.grad {background-image: url("../images/bar_charts/grad_blue.png")}
+.bar_charts .single_color table tr:nth-child(3) td:first-child div.grad {background-image: url("../images/bar_charts/grad_grey.png")}
+
+
+.bar_charts .multi_colors {top: 850px; padding: 46px 71px 68px 83px; background-color:  rgba(45, 45, 45, 0.62); width: 1240px;}
+.bar_charts .multi_colors .image {background-image: url("../images/bar_charts/bars_2.png"); width: 1063px; height: 174px; margin-bottom: 50px;position: relative; top:-20px;}
+.bar_charts .multi_colors table tr {height: 30px;}
+.bar_charts .multi_colors table div.grad {margin-right: 20px;}
+.bar_charts .multi_colors table div.value {width:auto;}
+.bar_charts .multi_colors table div.triangle {margin-left: 20px;}
+.bar_charts .multi_colors table div.check {margin-left: 20px;} 
+.bar_charts .multi_colors table tr:nth-child(1) td:first-child div.grad {background-image: url("../images/bar_charts/multi_grad_1.png")}
+.bar_charts .multi_colors table tr:nth-child(2) td:first-child div.grad {background-image: url("../images/bar_charts/multi_grad_2.png")}
+.bar_charts .multi_colors table tr:nth-child(3) td:first-child div.grad {background-image: url("../images/bar_charts/multi_grad_3.png")}
+.bar_charts .multi_colors table tr:nth-child(4) td:first-child div.grad {background-image: url("../images/bar_charts/multi_grad_4.png")}
+.bar_charts .multi_colors table tr:nth-child(5) td:first-child div.grad {background-image: url("../images/bar_charts/multi_grad_5.png")}
+.bar_charts .multi_colors table tr:nth-child(6) td:first-child div.grad {background-image: url("../images/bar_charts/multi_grad_6.png")}
+.bar_charts .multi_colors table tr:nth-child(7) td:first-child div.grad {background-image: url("../images/bar_charts/multi_grad_7.png")}
+.bar_charts .multi_colors table tr:nth-child(8) td:first-child div.grad {background-image: url("../images/bar_charts/multi_grad_8.png")}
+
+
+.bar_charts .variance {top: 1486px; padding: 46px 71px 68px 83px;}
+.bar_charts .variance .image {background-image: url("../images/bar_charts/bars_3.png"); width: 1064px; height: 242px;position: relative; }
+.bar_charts .variance table {position: relative; top:-50px;}
+.bar_charts .variance table tr {height: 30px;}
+.bar_charts .variance table div.grad {margin-right: 20px;}
+.bar_charts .variance table div.value {width:auto;}
+.bar_charts .variance table div.triangle {margin-left: 20px;}
+.bar_charts .variance table div.check {margin-left: 20px;} 
+.bar_charts .variance table tr:nth-child(1) td:first-child div.grad {background-image: url("../images/bar_charts/variance_grad_1.png")}
+.bar_charts .variance table tr:nth-child(2) td:first-child div.grad {background-image: url("../images/bar_charts/variance_grad_2.png")}
+.bar_charts .variance table tr:nth-child(3) td:first-child div.grad {background-image: url("../images/bar_charts/variance_grad_3.png")}
+
+
+.bar_charts .stacked {top: 1930px;}
+
+.bar_charts .stacked_bars {top: 2030px; padding: 46px 71px 68px 83px;}
+.bar_charts .stacked_bars .image {background-image: url("../images/bar_charts/bars_4.png"); width: 1043px; height: 174px;position: relative;}
+.bar_charts .stacked_bars div:nth-child(4) {position: relative; top:-20px; left:-10px;}
+.bar_charts .stacked_bars div:nth-child(5) {position: relative; top: -43px; left: 113px;}
+.bar_charts .stacked_bars div:nth-child(6) {position: relative; top: -67px; left: 246px;}
+.bar_charts .stacked_bars table tr {height: 30px;}
+.bar_charts .stacked_bars table div.grad {margin-right: 20px;}
+.bar_charts .stacked_bars table div.value {width:auto;}
+.bar_charts .stacked_bars table div.triangle {margin-left: 20px;}
+.bar_charts .stacked_bars table div.check {margin-left: 20px;} 
+.bar_charts .stacked_bars table tr:nth-child(1) td:first-child div.grad {background-image: url("../images/bar_charts/grad_yellow.png")}
+.bar_charts .stacked_bars table tr:nth-child(2) td:first-child div.grad {background-image: url("../images/bar_charts/grad_blue.png")}
+.bar_charts .stacked_bars table tr:nth-child(3) td:first-child div.grad {background-image: url("../images/bar_charts/grad_grey.png")}
+
+
+.bar_charts .perfomance_color {top: 2500px; padding: 46px 71px 68px 83px; background-color:  rgba(45, 45, 45, 0.62); width: 1240px;}
+.bar_charts .perfomance_color .image {background-image: url("../images/bar_charts/bars_5.png"); width: 1063px; height: 174px;position: relative; }
+.bar_charts .perfomance_color table {position: relative;}
+.bar_charts .perfomance_color table tr {height: 30px;}
+.bar_charts .perfomance_color table div.grad {margin-right: 20px;}
+.bar_charts .perfomance_color table div.value {width:auto;}
+.bar_charts .perfomance_color table div.triangle {margin-left: 20px;}
+.bar_charts .perfomance_color table div.check {margin-left: 20px;} 
+.bar_charts .perfomance_color table tr:nth-child(1) td:first-child div.grad {background-image: url("../images/bar_charts/variance_grad_1.png")}
+.bar_charts .perfomance_color table tr:nth-child(2) td:first-child div.grad {background-image: url("../images/bar_charts/variance_grad_2.png")}
+.bar_charts .perfomance_color table tr:nth-child(3) td:first-child div.grad {background-image: url("../images/bar_charts/variance_grad_3.png")}
+
+
+.bar_charts .many_metrics {top: 2950px; padding: 46px 71px 68px 83px;}
+.bar_charts .many_metrics .image {background-image: url("../images/bar_charts/bars_6.png"); width: 1064px; height: 210px; margin: 40px 0;}
+.bar_charts .many_metrics table tr {height: 30px;}
+.bar_charts .many_metrics table div.color {margin-right: 20px;width: 22px; height: 21px;}
+.bar_charts .many_metrics table div.value {width:auto;}
+.bar_charts .many_metrics table div.triangle {margin-left: 20px;}
+.bar_charts .many_metrics table div.check {margin-left: 20px;}
+.bar_charts .many_metrics table tr:nth-child(1) td:nth-child(1) div.color {background-color:  rgba(14, 88, 141, 0.65);}
+.bar_charts .many_metrics table tr:nth-child(1) td:nth-child(5) div.color {margin-left: 60px;  background-color:  rgba(255, 237, 0, 0.65);}
+
+.bar_charts .many_metrics table tr:nth-child(2) td:nth-child(1) div.color {background-color:  rgba(0, 185, 238, 0.65);}
+.bar_charts .many_metrics table tr:nth-child(2) td:nth-child(5) div.color {margin-left: 60px;  background-color:  rgba(145, 229, 27, 0.65);}
+
+.bar_charts .many_metrics table tr:nth-child(3) td:nth-child(1) div.color {background-color:  rgba(129, 105, 222, 0.65);}
+.bar_charts .many_metrics table tr:nth-child(3) td:nth-child(5) div.color {margin-left: 60px;  background-color:  rgba(116, 135, 174, 0.65);}
+
+.bar_charts .many_metrics table tr:nth-child(4) td:nth-child(1) div.color {background-color:  rgba(236, 45, 68, 0.65);}
+.bar_charts .many_metrics table tr:nth-child(4) td:nth-child(5) div.color {margin-left: 60px;  background-color:  rgba(255, 255, 214, 0.65);}
+
+.bar_charts .many_metrics table tr:nth-child(5) td:nth-child(1) div.color {background-color:  rgba(254, 132, 31, 0.65);}
+.bar_charts .many_metrics table tr:nth-child(5) td:nth-child(5) div.color {margin-left: 60px;  background-color:  rgba(247, 178, 132, 0.65);}
+
+.bar_charts .multiple {top: 3600px; }
+.bar_charts .multiple_bars {top: 3700px; padding: 46px 71px 68px 83px;}
+.bar_charts .multiple_bars .image {background-image: url("../images/bar_charts/bars_7.png"); width: 1039px; height: 242px;position: relative;}
+.bar_charts .multiple_bars div:nth-child(4) {position: relative; top:-40px; left:-10px;}
+.bar_charts .multiple_bars div:nth-child(5) {position: relative; top: -63px; left: 113px;}
+.bar_charts .multiple_bars div:nth-child(6) {position: relative; top: -87px; left: 246px;}
+.bar_charts .multiple_bars table {position: relative; top: -50px}
+.bar_charts .multiple_bars table tr {height: 30px;}
+.bar_charts .multiple_bars table div.grad {margin-right: 20px;}
+.bar_charts .multiple_bars table div.value {width:auto;}
+.bar_charts .multiple_bars table div.triangle {margin-left: 20px;}
+.bar_charts .multiple_bars table div.check {margin-left: 20px;} 
+.bar_charts .multiple_bars table tr:nth-child(1) td:first-child div.grad {background-image: url("../images/bar_charts/grad_yellow.png")}
+.bar_charts .multiple_bars table tr:nth-child(2) td:first-child div.grad {background-image: url("../images/bar_charts/grad_blue.png")}
+.bar_charts .multiple_bars table tr:nth-child(3) td:first-child div.grad {background-image: url("../images/bar_charts/grad_grey.png")}
+
+
+.bar_charts .additional_colors {top: 4200px; padding: 46px 71px 68px 83px; background-color:  rgba(45, 45, 45, 0.62); width: 1240px; height: 604px;}
+.bar_charts .additional_colors .image {background-image: url("../images/bar_charts/bars_8.png"); width: 1065px; height: 240px; margin: 40px 0;}
+.bar_charts .additional_colors div:nth-child(4) {position: relative; top: -124px; left: 8px;width: 200px; }
+.bar_charts .additional_colors div:nth-child(5) {position: relative; top: -149px; left: 256px; width: 200px;}
+.bar_charts .additional_colors table {position: relative; top:-130px;}
+.bar_charts .additional_colors table tr {height: 30px;}
+.bar_charts .additional_colors table div.color {margin-right: 20px;width: 22px; height: 21px;}
+.bar_charts .additional_colors table div.value {width:auto;}
+.bar_charts .additional_colors table tr:nth-child(1) td:nth-child(1) div.color {background-color:  rgba(14, 88, 141, 0.65);}
+.bar_charts .additional_colors table tr:nth-child(1) td:nth-child(3) div.color {margin-left: 106px;  background-color:  rgba(255, 237, 0, 0.65);}
+
+.bar_charts .additional_colors table tr:nth-child(2) td:nth-child(1) div.color {background-color:  rgba(0, 185, 238, 0.65);}
+.bar_charts .additional_colors table tr:nth-child(2) td:nth-child(3) div.color {margin-left: 106px;  background-color:  rgba(145, 229, 27, 0.65);}
+
+.bar_charts .additional_colors table tr:nth-child(3) td:nth-child(1) div.color {background-color:  rgba(129, 105, 222, 0.65);}
+.bar_charts .additional_colors table tr:nth-child(3) td:nth-child(3) div.color {margin-left: 106px;  background-color:  rgba(116, 135, 174, 0.65);}
+
+.bar_charts .additional_colors table tr:nth-child(4) td:nth-child(1) div.color {background-color:  rgba(236, 45, 68, 0.65);}
+.bar_charts .additional_colors table tr:nth-child(4) td:nth-child(3) div.color {margin-left: 106px;  background-color:  rgba(255, 255, 214, 0.65);}
+
+.bar_charts .additional_colors table tr:nth-child(5) td:nth-child(1) div.color {background-color:  rgba(254, 132, 31, 0.65);}
+.bar_charts .additional_colors table tr:nth-child(5) td:nth-child(3) div.color {margin-left: 106px;  background-color:  rgba(247, 178, 132, 0.65);}
+
+.bar_charts .fonts {top: 4800px;}
+
+.bar_charts .bar_fonts {top: 4900px; padding: 46px 71px 68px 83px;}
+.bar_charts .bar_fonts table {width: auto; display: inline-block; position: relative;}
+.bar_charts .bar_fonts table div {display: inline-block;}
+.bar_charts .bar_fonts table div.color {background-color:  #dfdfdf; width: 22px; height: 21px; margin-right: 20px; margin-left: 80px;}
+.bar_charts .bar_fonts table div.font {font-family: Arial; color:  #dfdfdf; font-size: 10.67px; font-weight: 400;} 
+.bar_charts .bar_fonts .image {background-image: url("../images/bar_charts/bars_9.png"); float: right; display: inline-block; width: 544px; height: 174px;}
+
+
+
+
+

@@ -36,6 +36,8 @@ body  {
 	-webkit-transition: border-width 0.3s, background-color 0.3s;
 	transition: border-width 0.3s, background-color 0.3s;
 }
+
+.bt-menu.bt-menu-open ul{background-color: rgba(0,0,0,0.3);}
 /*
 .bt-overlay {
 	position: absolute;
@@ -116,7 +118,7 @@ body  {
 
 .bt-menu ul {
 	position: fixed;
-	top: 75px;
+	top: 71px;
 	left: 0;
 	margin: 0;
 	padding: 0;
