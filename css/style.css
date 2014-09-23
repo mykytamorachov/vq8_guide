@@ -12,7 +12,7 @@
 .mini-value {font-family: Arial; color:  #7d7d7d; font-size: 14.67px;  font-weight: 400; width: 150px;}
 .triangle {width: 0; height: 0; margin-right: 19px;margin-left: 41px; border-style: solid;  border-width: 6px 0 6px 10px; background-color: transparent; border-color: transparent transparent transparent #7d7d7d; line-height: 0px;  _border-color: #000000 #000000 #000000 #7d7d7d; _filter: progid:DXImageTransform.Microsoft.Chroma(color='#000000');}
 .check {background-image: url("../images/Performance/check.png");background-color: transparent; width: 20px; height: 20px; margin-right: 10px;}
-.grad {width: 44px; height: 21px;}
+.grad {width: auto; height: 21px; margin-bottom: 22px;}
 .fixed{position: absolute !important;}
 .header
 {
@@ -531,8 +531,9 @@ left: 164px;}
 .9pt{font-family: Arial; font-size: 12px; font-weight: 400;}
 .10pt{font-family: Arial; font-size: 13.33px; font-weight: 400;}
 .font{margin-bottom: 15px;}
-.font div{display: inline-block; width: 22px; height: 21px; margin-right: 20px; margin-left: 174px;}
+.font div{display: inline-block; height: 21px; margin-right: 20px; margin-left: 174px;}
 
+.perfomance .font div{display: inline-block; height: 21px; width: 21px; margin-right: 20px; margin-left: 174px;}
 .perfomance .perfomance-sizes .gradients{width: 420px; display: inline-block; position: relative; top:10px;}
 .perfomance .perfomance-sizes .gradients .grad div {display: inline-block; margin-top: 21px;}
 
@@ -541,7 +542,7 @@ left: 164px;}
 .perfomance .perfomance-sizes .gradients .grad.red .gradrect {margin-right: 19px; background-image: url("../images/Performance/red_grad.png"); width: 44px; height: 21px;}
 .perfomance .perfomance-sizes .gradients .grad .triangle {width: 0; height: 0; margin-right: 19px;margin-left: 41px; border-style: solid;  border-width: 6px 0 6px 10px; background-color: transparent; border-color: transparent transparent transparent #7d7d7d; line-height: 0px;  _border-color: #000000 #000000 #000000 #7d7d7d; _filter: progid:DXImageTransform.Microsoft.Chroma(color='#000000');}
 .perfomance .perfomance-sizes .gradients .grad.green .triangle {margin-left: 60px;}
-.perfomance .perfomance-sizes .gradients .grad .check {margin-right: 11px;margin-left: 45px; background-image: url("../images/Performance/check.png");background-color: transparent; width: 20px; height: 20px;}
+.perfomance .perfomance-sizes .gradients .grad .check {margin-left: 45px; background-image: url("../images/Performance/check.png");background-color: transparent; width: 20px; height: 20px;}
 .perfomance .perfomance-sizes .gradients .grad.green .check {margin-left: 66px;}
 
 .filters .examples {top: 339px; padding: 46px 71px 68px 83px;}
@@ -618,7 +619,7 @@ left: 164px;}
 .widgets .text-margin div:nth-child(5){left: 686px; top: -79px;}
 .widgets .text-margin div:nth-child(6){left: 854px; top: -218px;}
 
-.widgets .title-grids {top: 2539px;}
+.widgets .title-grids {top: 2539px; padding: 46px 71px 68px 83px;}
 
 .widgets .title-grids .fonts, .widgets .title-grids .title_grids {display: inline-block;}
 .widgets .title-grids .title_grids {width: 640px;}
@@ -827,8 +828,8 @@ left: 164px;}
 .bar_charts .single_color .image {background-image: url("../images/bar_charts/bars_1.png"); width: 1064px; height: 207px;position: relative; top:-50px;}
 .bar_charts .single_color div:nth-child(4) {position: relative; top:-40px;}
 .bar_charts .single_color div:nth-child(5) {position: relative; top: -63px; left: 133px;}
-.bar_charts .single_color table tr {height: 30px;}
-.bar_charts .single_color table div.grad {margin-right: 20px;}
+.bar_charts .single_color table tr {height: 36px;}
+.bar_charts .single_color table div.grad {margin-right: 20px; margin-bottom: 0; width: 21px; }
 .bar_charts .single_color table div.value {width:auto;}
 .bar_charts .single_color table div.triangle {margin-left: 20px;}
 .bar_charts .single_color table div.check {margin-left: 20px;} 
@@ -839,8 +840,8 @@ left: 164px;}
 
 .bar_charts .multi_colors {top: 850px; padding: 46px 71px 68px 83px; background-color:  rgba(45, 45, 45, 0.62); width: 1240px;}
 .bar_charts .multi_colors .image {background-image: url("../images/bar_charts/bars_2.png"); width: 1063px; height: 174px; margin-bottom: 50px;position: relative; top:-20px;}
-.bar_charts .multi_colors table tr {height: 30px;}
-.bar_charts .multi_colors table div.grad {margin-right: 20px;}
+.bar_charts .multi_colors table tr {height: 36px;}
+.bar_charts .multi_colors table div.grad {margin-right: 20px; margin-bottom: 0; width: 21px; }
 .bar_charts .multi_colors table div.value {width:auto;}
 .bar_charts .multi_colors table div.triangle {margin-left: 20px;}
 .bar_charts .multi_colors table div.check {margin-left: 20px;} 
@@ -857,8 +858,8 @@ left: 164px;}
 .bar_charts .variance {top: 1486px; padding: 46px 71px 68px 83px;}
 .bar_charts .variance .image {background-image: url("../images/bar_charts/bars_3.png"); width: 1064px; height: 242px;position: relative; }
 .bar_charts .variance table {position: relative; top:-50px;}
-.bar_charts .variance table tr {height: 30px;}
-.bar_charts .variance table div.grad {margin-right: 20px;}
+.bar_charts .variance table tr {height: 36px;}
+.bar_charts .variance table div.grad {margin-right: 20px; margin-bottom: 0; width: 21px; }
 .bar_charts .variance table div.value {width:auto;}
 .bar_charts .variance table div.triangle {margin-left: 20px;}
 .bar_charts .variance table div.check {margin-left: 20px;} 
@@ -874,8 +875,8 @@ left: 164px;}
 .bar_charts .stacked_bars div:nth-child(4) {position: relative; top:-20px; left:-10px;}
 .bar_charts .stacked_bars div:nth-child(5) {position: relative; top: -43px; left: 113px;}
 .bar_charts .stacked_bars div:nth-child(6) {position: relative; top: -67px; left: 246px;}
-.bar_charts .stacked_bars table tr {height: 30px;}
-.bar_charts .stacked_bars table div.grad {margin-right: 20px;}
+.bar_charts .stacked_bars table tr {height: 36px;}
+.bar_charts .stacked_bars table div.grad {margin-right: 20px; margin-bottom: 0; width: 21px; }
 .bar_charts .stacked_bars table div.value {width:auto;}
 .bar_charts .stacked_bars table div.triangle {margin-left: 20px;}
 .bar_charts .stacked_bars table div.check {margin-left: 20px;} 
@@ -887,8 +888,8 @@ left: 164px;}
 .bar_charts .perfomance_color {top: 2500px; padding: 46px 71px 68px 83px; background-color:  rgba(45, 45, 45, 0.62); width: 1240px;}
 .bar_charts .perfomance_color .image {background-image: url("../images/bar_charts/bars_5.png"); width: 1063px; height: 174px;position: relative; }
 .bar_charts .perfomance_color table {position: relative;}
-.bar_charts .perfomance_color table tr {height: 30px;}
-.bar_charts .perfomance_color table div.grad {margin-right: 20px;}
+.bar_charts .perfomance_color table tr {height: 36px;}
+.bar_charts .perfomance_color table div.grad {margin-right: 20px; margin-bottom: 0; width: 21px; }
 .bar_charts .perfomance_color table div.value {width:auto;}
 .bar_charts .perfomance_color table div.triangle {margin-left: 20px;}
 .bar_charts .perfomance_color table div.check {margin-left: 20px;} 
@@ -926,8 +927,8 @@ left: 164px;}
 .bar_charts .multiple_bars div:nth-child(5) {position: relative; top: -63px; left: 113px;}
 .bar_charts .multiple_bars div:nth-child(6) {position: relative; top: -87px; left: 246px;}
 .bar_charts .multiple_bars table {position: relative; top: -50px}
-.bar_charts .multiple_bars table tr {height: 30px;}
-.bar_charts .multiple_bars table div.grad {margin-right: 20px;}
+.bar_charts .multiple_bars table tr {height: 36px;}
+.bar_charts .multiple_bars table div.grad {margin-right: 20px; margin-bottom: 0; width: 21px; }
 .bar_charts .multiple_bars table div.value {width:auto;}
 .bar_charts .multiple_bars table div.triangle {margin-left: 20px;}
 .bar_charts .multiple_bars table div.check {margin-left: 20px;} 
