@@ -15,7 +15,8 @@
 		<link rel="stylesheet" type="text/css" href="css/style2.css" />
 		<link rel="stylesheet" type="text/css" href="css/style.css" />
 		<script src="js/modernizr.custom.js"></script>
-		<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+		<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
 	</head>
 	<body>		
 		
@@ -39,38 +40,58 @@
 							<span>.pdf</span>
 						</div>
 					</div>
+					<div class="download_all">						
+						<img src="images/download.png" alt="" class="download-img">
+						<div>
+							<p>Download All</p>
+						</div>
+					</div>
 				</div>
 				<ul>
-					<li template="mini-widgets.html" class="home">Home</li>
-					<li template="fonts.html">Fonts</li>
-					<li template="mini-trends.html">Mini Trends</li>
-					<li template="tables.html">Tables</li>
-					<li template="widgets.html">Widgets</li>
-					<li template="bar_charts.html">Bar charts</li>
-					<li template="data-types.html">Data Types</li>
-					<li template="donut-chart.html">Donut chart</li>
-					<li template="cumulative-chart.html">Cumulative Chart</li>
-					<li template="filters.html">Filters</li>
-					<li template="performance.html">Performance</li>
-					<li template="background.html">Background</li>
-					<li template="line_charts.html">Line charts</li>
-					<li template="ticker-tiles.html">Ticker Tiles</li>
-					<li template="variance.html">Variance</li>
+					<li template="home" class="home">Home</li>
+					<li template="fonts">Fonts</li>
+					<li template="mini-trends">Mini Trends</li>
+					<li template="mini-widgets">Mini Widgets</li>
+					<li template="tables">Tables</li>
+					<li template="widgets">Widgets</li>
+					<li template="bar-charts">Bar charts</li>
+					<li template="data-types">Data Types</li>
+					<li template="donut-chart">Donut chart</li>
+					<li template="cumulative-chart">Cumulative Chart</li>
+					<li template="filters">Filters</li>
+					<li template="performance">Performance</li>
+					<li template="background">Background</li>
+					<li template="line-charts">Line charts</li>
+					<li template="ticker-tiles">Ticker Tiles</li>
+					<li template="variance">Variance</li>
 				</ul>
 			</nav>
 		</div><!-- /container -->
 		<script>
-		$(".content").load("templates/" + "mini-widgets.html");
-
-		
+		$(".content").load("templates/" + "home.html");
 
 		$("#bt-menu li").click(function(){
 			$(".content").empty();
 			var template = $(this).attr("template");
-			$(".content").load("templates/" + template);
+			$(".content").load("templates/" + template + ".html");
 			$(".bt-menu.bt-menu-open ul li").removeClass('active');
+			$(".download_all").hide()
+			$(".download").show();
+			$(".download").attr('pdf',template);
 			$(this).addClass('active');
 		})
+		$(".download").click(
+			function(e){
+				var url = "https://91f282c788c8e845697726bcfc6d3174f0c6a559.googledrive.com/host/0B3hfV0podtEATURQdkRZb2haWkk/"+$(this).attr('pdf')+'.pdf';
+				window.open(url, "_blank");
+			})
+		$("#bt-menu ul li[template='home']").click(
+			function(e){
+				$(".download").hide()
+				$(".download_all").show()
+		})
+
+		
 		</script>
 	</body>
 	<script src="js/classie.js"></script>

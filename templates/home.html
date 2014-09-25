@@ -1,0 +1,106 @@
+<div class="home">
+	<div class="cumulative-chart">
+	<div class="header fixed">
+		<img src="images/logo.png" alt="">
+		<span>VQ8  Styleguide</span>
+	</div>
+	<div class="title fixed"></div>
+	<div class="contents fixed">
+		<ul>
+			<li >
+				<div class="text" template="fonts">Fonts</div>
+				<div class="subheader">1.51 mb</div>
+				<div title="Download PDF" class="download_pdf" pdf="fonts.pdf"></div>
+			</li>
+			<li >
+				<div class="text" template="tables">Tables</div>
+				<div class="subheader">26.5 mb</div>
+				<div title="Download PDF" class="download_pdf" pdf="tables.pdf"></div>
+			</li>
+			<li>
+				<div class="text" template="background">Background</div>
+				<div class="subheader">0.95 mb</div>
+				<div title="Download PDF" class="download_pdf" pdf="background.pdf"></div>
+			</li>
+			<li>
+				<div class="text" template="bar-charts">Bar charts</div>
+				<div class="subheader">18.0 mb</div>
+				<div title="Download PDF" class="download_pdf" pdf="bar-charts.pdf"></div>
+			</li>
+			<li>
+				<div class="text" template="line-charts">Line chart (with and without fillings)</div>
+				<div class="subheader">3.17 mb</div>
+				<div title="Download PDF" class="download_pdf" pdf="line-charts.pdf"></div>
+			</li>
+			<li>
+				<div class="text" template="donut-chart">Donut chart (double donuts)</div>
+				<div class="subheader">2.99 mb</div>
+				<div title="Download PDF" class="download_pdf" pdf="donut-chart.pdf"></div>
+			</li>
+			<li>
+				<div class="text" template="cumulative-chart">Cumulative chart</div>
+				<div class="subheader">3.83 mb</div>
+				<div title="Download PDF" class="download_pdf" pdf="cumulative-chart.pdf"></div>
+			</li>
+			<li>
+				<div class="text" template="mini-trends">Mini Trends</div>
+				<div class="subheader">3.68 mb</div>
+				<div title="Download PDF" class="download_pdf" pdf="mini-trends.pdf"></div>
+			</li>
+			<li>
+				<div class="text" template="mini-widgets">Mini Widgets</div>
+				<div class="subheader">1.77 mb</div>
+				<div title="Download PDF" class="download_pdf" pdf="mini-widgets.pdf"></div>
+			</li>
+			<li>
+				<div class="text" template="ticker-tiles">Ticker Tiles</div>
+				<div class="subheader">2.39 mb</div>
+				<div title="Download PDF" class="download_pdf" pdf="ticker-tiles.pdf"></div>
+			</li>
+			<li>
+				<div class="text" template="perfomance">Perfomance</div>
+				<div class="subheader">4.21 mb</div>
+				<div title="Download PDF" class="download_pdf" pdf="perfomance.pdf"></div>
+			</li>
+			<li>
+				<div class="text" template="variance">Variance</div>
+				<div class="subheader">0.83 mb</div>
+				<div title="Download PDF" class="download_pdf" pdf="variance.pdf"></div>
+			</li>
+			<li>
+				<div class="text" template="widgets">Widgets</div>
+				<div class="subheader">2.68 mb</div>
+				<div title="Download PDF" class="download_pdf" pdf="widgets.pdf"></div>
+			</li>
+			<li>
+				<div class="text" template="filters">Filters</div>
+				<div class="subheader">3.53 mb</div>
+				<div title="Download PDF" class="download_pdf" pdf="filters.pdf"></div>
+			</li>
+		</ul>
+	</div>
+</div>
+
+<script>
+	$(".home .contents ul li .text").click(function(){
+		$(".content").empty();
+		var template = $(this).attr("template");
+		$(".content").load("templates/" + template + ".html");
+		$(".bt-menu ul li").removeClass('active');
+		$("#bt-menu ul li[template='"+template+"']").addClass('active');
+		$(".download").show();
+		$(".download_all").hide();
+		$(this).addClass('active');
+	})
+
+	$(".download_pdf").click(
+		function(e){
+			var url = "https://91f282c788c8e845697726bcfc6d3174f0c6a559.googledrive.com/host/0B3hfV0podtEATURQdkRZb2haWkk/"+$(this).attr('pdf');
+			window.open(url, "_blank");
+	})
+	$(".download_all").click(
+		function(e){
+			var url = "https://googledrive.com/host/0B3hfV0podtEATURQdkRZb2haWkk/vq8-style-guide.zip"
+			window.open(url, "_blank");
+	})
+</script>
